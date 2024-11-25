@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgb(105, 9, 9);
+    box-shadow: 2px 1px 2px 2px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px;
+    color: rgb(255, 149, 149);
+}
+nav ul li :hover {
+    color: #ffffff;
+}
+section img {
+    max-height: 600px;
+    min-height: 50px;
+    width: auto;
+    padding: 10px;
+    float: left;
+}
+
+.wrapper2 {
+    background-color: rgb(255, 255, 255);
+    height: 700px; 
+    box-shadow: 2px 1px 2px 2px;
+}
+
+.kolom {
+    padding-top: 230px;
+    place-content: center;
+    text-align: center;
+}
+
+.awal1 {
+    font-size: 30px;
+}
+
+.awal3 {
+    font-size: 30px;
+}
+
+.awal2 {
+    font-size: 50px;
+}
+
+.wrapper- {
+    height: 10px;
+    background-color: black;
+}
+.wrapper3 {
+    background-color:#ffffff;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.virus {
+    display: flex;
+    float: right;
+}
+.wrapper4 {
+    background-color:#ffffff;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.aids {
+   float: inline-start;
+   height: 400px;
+}
+
+#NAPZA img{
+    width: 600px;
+}
+
+.wrapper5 {
+    background: rgb(105, 9, 9);
+    text-align: center;
+    color: #ffffff;
+}
+
+.wrapper6 {
+    padding: 20px;
+    background: red;
+}
+
+@media screen and (max-width: 768px) {
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.kolom {
+    display: flex;
+    float: inline-start;
+}
+
+.kolom p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.kolom h2 {
+    font-size: 12px;
+    padding: 5px;
+}
+
+#Home img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#HIV img {
+    width: 150px;
+}
+
+#AIDS img {
+    height: 150px;
+}
+
+#NAPZA img {
+    width: 200px;
+}
+}
